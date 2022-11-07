@@ -55,7 +55,7 @@ int _strcmp(char *, char *);
 char *_strdup(char *);
 void print_str(char *, int);
 int print_number(int);
-int _write_char(char);
+int put_char(char);
 
 /* Helper functions*/
 void error_printing(char *, int, char *);
