@@ -17,16 +17,16 @@ return (i);
 }
 
 /**
- *  * double_free - Free double pointer variables.
- *   * @to_be_freed: The address of the elements that need to be freed.
- *    */
+* double_free - Free double pointer variables.
+* @to_be_freed: The address of the elements that need to be freed.
+*/
 void double_free(char **to_be_freed)
 {
-		int index;
+int index;
 
-			for (index = 0; to_be_freed[index] != NULL; index++)
-						free(to_be_freed[index]);
-				free(to_be_freed);
+for (index = 0; to_be_freed[index] != NULL; index++)
+free(to_be_freed[index]);
+free(to_be_freed);
 }
 
 /**
