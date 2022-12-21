@@ -1,4 +1,4 @@
-#include "header.h"
+#include "shell.h"
 #include <stdlib.h>
 /**
  * delete_node - deletes the node of a list array.

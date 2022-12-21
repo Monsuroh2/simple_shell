@@ -1,5 +1,5 @@
 #include <string.h>
-#include "header.h"
+#include "shell.h"
 /**
 * _getn - compares the string to environmental token returns the location.
 * @name: string name passing through

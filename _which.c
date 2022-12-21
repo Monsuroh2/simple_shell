@@ -2,7 +2,7 @@
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <unistd.h>
-#include "header.h"
+#include "shell.h"
 #include <string.h>
 #include <signal.h>
 

@@ -1,4 +1,4 @@
-#include "header.h"
+#include "shell.h"
 /**
  * _strdup - duplicate and malloc for the new string.
  * @str: targeted string.

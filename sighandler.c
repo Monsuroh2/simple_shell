@@ -3,7 +3,7 @@
 #include <sys/stat.h>
 #include <stdio.h>
 #include <unistd.h>
-#include "header.h"
+#include "shell.h"
 #include <string.h>
 #include <signal.h>
 /**
